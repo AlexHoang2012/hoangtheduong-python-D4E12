@@ -1,0 +1,9 @@
+from turtle import *
+
+shape("turtle")
+color('yellow')
+begin_fill()
+circle(100)
+end_fill()
+
+mainloop()

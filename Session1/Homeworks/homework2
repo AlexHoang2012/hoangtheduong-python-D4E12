@@ -1,0 +1,11 @@
+from turtle import *
+
+shape("turtle")
+color('yellow')
+begin_fill()
+for i in range (int(4)):
+    forward(100)
+    left(120)
+end_fill()
+
+mainloop()

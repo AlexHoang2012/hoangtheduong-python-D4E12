@@ -1,0 +1,12 @@
+from turtle import *
+
+shape("turtle")
+n=1000
+color('green')
+speed(-1)
+for i in range (int(n)):
+    circle(100)
+    left(5)
+
+
+mainloop()
