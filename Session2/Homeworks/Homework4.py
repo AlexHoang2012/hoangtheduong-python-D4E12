@@ -7,4 +7,18 @@
 # for c in range (b):
 #     print(c)
 
-#3,4,5: I don't know to do it
+# #3
+# for i in range(20):
+#     if i%2 == 0:
+#         print (1, end=" ")
+#     else:
+#         print(0, end=" ")
+
+#5 
+for y in range (1, 10):
+    for x in range (1, 10):
+        if x*y >= 10:
+            print(x*y, end=" ")
+        else:
+            print(x*y, end="  ")
+    print()
